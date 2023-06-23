@@ -10,7 +10,7 @@ public class SeleniumopenProject {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//branch b changes
+		
 WebDriverManager.chromedriver().setup();
 WebDriver driver = new ChromeDriver();
 driver.get("https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager");
