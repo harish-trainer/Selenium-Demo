@@ -15,6 +15,7 @@ WebDriverManager.chromedriver().setup();
 WebDriver driver = new ChromeDriver();
 
 driver.get("https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager");
+driver.get("https://facebook.com);
 	}
 
 }
