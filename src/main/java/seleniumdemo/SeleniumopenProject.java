@@ -14,6 +14,7 @@ public class SeleniumopenProject {
 WebDriverManager.chromedriver().setup();
 WebDriver driver = new ChromeDriver();
 driver.get("https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager");
+driver.get("https://github.com/harish-trainer/Selenium-Demo.git");
 	
 	
 	}
